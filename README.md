@@ -1,51 +1,50 @@
-# 📊 Ridge and Lasso Regression – Practical Implementation
+**# Ridge and Lasso Regression – Practical Implementation
 
-This project demonstrates the practical implementation of **Ridge** and **Lasso** Regression using the **California Housing Dataset**. These regression techniques are used to improve model performance by applying regularization, helping to prevent overfitting and manage multicollinearity.
-
----
-
-## 📁 Project Structure
-
-- `ridge_lasso.ipynb` – Jupyter Notebook with step-by-step implementation
-- `README.md` – Project overview and instructions
+This project demonstrates how to implement **Ridge** and **Lasso** regression models using the **California Housing Dataset**. It showcases regularization techniques that help improve model performance by preventing overfitting and managing multicollinearity.
 
 ---
 
-## 📚 What You’ll Learn
+## Project Structure
 
-✅ How to:
+- `ridge_lasso.ipynb` – Jupyter Notebook with step-by-step implementation  
+- `README.md` – Project overview and instructions  
+
+---
+
+## Features
+
 - Load and explore the California housing dataset  
-- Perform Linear, Ridge, and Lasso Regression  
-- Use `GridSearchCV` for hyperparameter tuning (alpha)  
-- Evaluate model performance using R² score and MSE  
-- Visualize residuals using Seaborn KDE plots
+- Implement Linear, Ridge, and Lasso regression models  
+- Perform hyperparameter tuning using `GridSearchCV`  
+- Evaluate model performance using R² score and mean squared error  
+- Visualize residuals through KDE plots using Seaborn  
 
 ---
 
-## 🧰 Technologies Used
+## Tools and Libraries
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- scikit-learn
-
----
-
-## 🧪 Model Comparison
-
-| Model             | Regularization | Purpose                     |
-|------------------|----------------|-----------------------------|
-| Linear Regression| ❌             | Baseline model              |
-| Ridge Regression | ✅ (L2)        | Shrinks coefficients        |
-| Lasso Regression | ✅ (L1)        | Shrinks & selects features  |
+- Python  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- scikit-learn  
 
 ---
 
-## 📈 Evaluation Metrics
+## Model Comparison
 
-- **R² Score**
-- **Mean Squared Error**
-- **Residual Distribution Plots**
+| Model             | Regularization | Purpose                                          |
+|-------------------|----------------|--------------------------------------------------|
+| Linear Regression | None           | Baseline model                                   |
+| Ridge Regression  | L2             | Shrinks coefficients to reduce overfitting     |
+| Lasso Regression  | L1             | Shrinks coefficients and performs feature selection |
+
+---
+
+## Evaluation Metrics
+
+- R² Score  
+- Mean Squared Error (MSE)  
+- Residual distribution plots  
 
