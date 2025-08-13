@@ -29,7 +29,7 @@ It highlights how regularization techniques improve model performance by reducin
 - Pandas  
 - Matplotlib  
 - Seaborn  
-- scikit-learn  
+- scikit-learn
 
 ---
 
