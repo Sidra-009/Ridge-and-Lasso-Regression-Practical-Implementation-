@@ -51,7 +51,7 @@ It highlights how regularization techniques improve model performance by reducin
 
 ---
 
-## 🖥️ How to Use
+## 🖥️ How to USE
 
 1. **Clone this repository:**
 
