@@ -56,5 +56,5 @@ It highlights how regularization techniques improve model performance by reducin
 1. **Clone this repository:**
 
 ```bash
-git clone https://github.com/your-username/ridge-lasso-regression.git
+git clone https://github.com/Sidra-009/ridge-lasso-regression.git
 cd ridge-lasso-regression
